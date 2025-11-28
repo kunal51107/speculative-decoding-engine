@@ -2,6 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange)
+![Transformers](https://img.shields.io/badge/🤗%20Transformers-4.30%2B-yellow)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
 > **A LLM inference optimization engine that achieves 2-3× speedup through speculative decoding—built from scratch in PyTorch.**
