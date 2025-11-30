@@ -210,7 +210,7 @@ Final Speed: 4.21 tokens/sec
 RESULTS:
   Baseline time:     19.737s
   Speculative time:  7.124s
-  🚀 SPEEDUP:        2.77×
+  SPEEDUP:        2.77×
 ```
 
 **3. Run Experiments**
