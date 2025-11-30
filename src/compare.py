@@ -17,15 +17,15 @@ def run_race(prompts, max_new_tokens=40, gamma=4):
         print(f"\n\n Lap {i+1}: '{prompt}'")
         print("-" * 40)
         
-        # --- Run Baseline ---
+        #baseline
         print(" Running Baseline...")
         base_speed, base_text = baseline.generate(prompt, max_new_tokens)
         print(f"   Speed: {base_speed:.2f} tokens/sec")
         
-        # --- Run Speculative ---
+        #speculative
         print(" Running Speculative...")
         
-        # Now we get speed directly from the engine
+       
         spec_speed, spec_text = speculative.generate(prompt, max_new_tokens, gamma)
         
         print(f"   Speed: {spec_speed:.2f} tokens/sec")
