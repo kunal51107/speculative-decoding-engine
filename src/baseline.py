@@ -5,10 +5,6 @@ from config import DEVICE, TARGET_MODEL_NAME, TEMPERATURE, TOP_K, TOP_P
 from sampling import sample_token
 
 class BaselineGenerator:
-    """
-    The 'Control Group'. 
-    Generates text one token at a time using only the Target Model.
-    """
     def __init__(self):
         print(f" Initializing Baseline (Standard) Generator on {DEVICE}...")
         self.device = DEVICE
@@ -24,7 +20,7 @@ class BaselineGenerator:
         
         start_time = time.time()
         
-        # The Slow Loop
+        
         for _ in range(max_new_tokens):
             with torch.no_grad():
                 outputs = self.model(input_ids)
