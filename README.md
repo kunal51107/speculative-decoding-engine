@@ -47,7 +47,7 @@ Unlike black-box libraries (`vLLM`, `TensorRT-LLM`), this project implements the
 
 ---
 
-## 🧠 Algorithm Overview
+##  Algorithm Overview
 
 ### The Problem: Memory-Bound Generation
 
@@ -89,7 +89,7 @@ This ensures the final output distribution **exactly matches** standard autoregr
 
 ---
 
-## 🔧 Technical Implementation
+##  Technical Implementation
 
 ### Core Components
 
@@ -225,7 +225,7 @@ This generates:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 speculative-decoding-engine/
 │
